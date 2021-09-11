@@ -4,5 +4,5 @@
 </script>
 
 <footer>
-	<p>©️ {year} Makoto Toyoda</p>
+	<p><small>&copy; {year} Makoto Toyoda</small></p>
 </footer>	

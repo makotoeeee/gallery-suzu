@@ -15,15 +15,20 @@
     ];
 </script>
 
-{#each urls as url}
-    <img src={url} alt="cute dog!" />
-{/each}
+<div>
+    {#each urls as url}
+        <img src={url} alt="cute dog!" />
+    {/each}
+</div>
 
 <style>
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10;
+    }
     img{
-        max-width: 100%;
-        height: auto;
-        padding: 0;
-        margin: 0;
+        height: 400px;
+        width: 400px;
     }
 </style>
