@@ -1,5 +1,10 @@
+<script>
+import Navigator from "./Navigator.svelte";
+
+</script>
 <header>
 	<h1>Gallery Suzu</h1>
+    <Navigator />
 </header>
 
 <style>
@@ -7,6 +12,6 @@
         background-color: black;
         color: white;
         text-align: center;
-        font-size: x-large;
+        font-size: 2rem;
     }
 </style>

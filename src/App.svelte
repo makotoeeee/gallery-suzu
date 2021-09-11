@@ -10,7 +10,8 @@ import Main from "./Main.svelte";
 <Main />
 <Footer />
 
-
-
-
-
+<style>
+	html {
+		font-size: 100%;
+	}
+</style>
