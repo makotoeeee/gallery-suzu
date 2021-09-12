@@ -9,9 +9,3 @@ import Main from "./Main.svelte";
 <Header />
 <Main />
 <Footer />
-
-<style>
-	html {
-		font-size: 100%;
-	}
-</style>
