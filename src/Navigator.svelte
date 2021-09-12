@@ -1,12 +1,17 @@
 <nav>
-    <p>about</p>
+    <ul>
+        <li>about</li>
+        <li>shop</li>        
+    </ul>
 </nav>
 
 <style>
-    p {
-        background-color: black;
+    ul {
+        display: flex;
+        list-style: none;
+        background-color: orange;
         color: white;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 </style>

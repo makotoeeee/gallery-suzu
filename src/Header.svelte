@@ -9,7 +9,7 @@ import Navigator from "./Navigator.svelte";
 
 <style>
     header {
-        background-color: black;
+        background-color: orange;
         color: white;
         text-align: center;
         font-size: 2rem;

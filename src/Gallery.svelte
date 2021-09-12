@@ -24,7 +24,7 @@
 <style>
     div {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: auto auto auto;
         gap: 10;
     }
     img{
